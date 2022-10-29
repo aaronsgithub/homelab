@@ -9,12 +9,12 @@ spec:
         repoURL: https://github.com/aaronsgithub/homelab.git
         revision: HEAD
         directories:
-          - path: system/*
-  templates:
+          - path: system/apps/*
+  template:
     metadata:
       name: '{{path.basename}}'
-      project: homelab
     spec:
+      project: homelab
       source:
         repoURL: https://github.com/aaronsgithub/homelab.git
         targetRevision: HEAD
