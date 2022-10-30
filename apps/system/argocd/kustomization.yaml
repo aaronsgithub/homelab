@@ -7,5 +7,6 @@ resources:
   - resources/argocd.ingressroute.yaml
     
 patchesStrategicMerge:
+  - patches/argocd-cm.patch.yaml
   - patches/argocd-cmd-params-cm.patch.yaml
 
