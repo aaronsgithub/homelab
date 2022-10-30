@@ -14,6 +14,10 @@ spec:
     metadata:
       name: '{{path.basename}}'
     spec:
+      ignoreDifferences:
+      - kind: CustomResourceDefinition
+        jqPathExpressions:
+          - '.spec.conversion.webhook.clientConfig.caBundle'
       project: homelab
       source:
         repoURL: https://github.com/aaronsgithub/homelab.git
