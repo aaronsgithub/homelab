@@ -9,7 +9,7 @@ spec:
         repoURL: https://github.com/aaronsgithub/homelab.git
         revision: HEAD
         directories:
-          - path: apps/system/*
+          - path: appsets/system/*
   template:
     metadata:
       name: '{{path.basename}}'
