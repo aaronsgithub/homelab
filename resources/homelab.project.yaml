@@ -7,4 +7,6 @@ spec:
   description: Aaron's Homelab
   sourceRepos:
   - '*'
+  destinations:
+  - server: https://kubernetes.default.svc
 

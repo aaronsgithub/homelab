@@ -1,4 +1,4 @@
 resources:
-  - resources/homelab.project.yaml
+  # - resources/homelab.namespace.yaml
   - apps/system/system.applicationset.yaml
   
