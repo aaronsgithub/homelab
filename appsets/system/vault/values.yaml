@@ -1,0 +1,7 @@
+# See https://developer.hashicorp.com/vault/tutorials/kubernetes/kubernetes-minikube-raft
+server:
+  affinity: ""
+  ha:
+    enabled: true
+    raft:
+      enabled: true
